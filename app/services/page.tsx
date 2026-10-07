@@ -1,0 +1,7 @@
+import Link from '@/components/link';
+import {services,booking} from '@/lib/content';
+import {CTA} from '@/components/site';
+import {seo} from '@/lib/seo';
+export const metadata=seo('Marketing Services','Explore AI strategy, SEO, content, social media, advertising, email automation, and website conversion support.','/services');
+export default function Services(){return <main id="main"><section className="page-hero"><div className="container"><p className="eyebrow">SERVICES</p><h1>Marketing support.<br/><em>Built around your business.</em></h1><p className="lead">A connected approach to attracting customers, building trust, and turning interest into enquiries.</p><p>Recommendations are customized to your goals, audience, resources, and current marketing. We’ll discuss your needs before recommending a scope of work.</p></div></section><div className="container">{services.map((s,i)=><section className="detail" id={s.slug} key={s.slug}><div className="split"><div><p className="eyebrow">0{i+1} / {s.icon}</p><h2>{s.title}</h2><p>{s.short}</p><h3>The challenge</h3><p>{s.challenge}</p><Link className="button" href={booking}>Book a Free Consultation Call</Link></div><div><h3>What we can work on</h3><ul>{s.activities.map(x=><li key={x}>{x}</li>)}</ul><h3>A good fit for</h3><p>{s.audience}</p><h3>The intended benefit</h3><p>{s.benefit}</p></div></div></section>)}</div><CTA label="Not sure where to start? Let’s work it out."/></main>}
+
