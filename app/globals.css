@@ -11,3 +11,6 @@
 @media(min-width:768px) and (max-width:900px){.hero{grid-template-columns:1fr}.hero h1{font-size:54px}.strategy-art{width:520px;max-width:100%;margin:auto}.hero-text{max-width:600px}}
 @media(min-width:768px) and (max-width:1100px){.menu{display:block;border:1px solid #c4d4d5;border-radius:4px;background:#fff;padding:9px 13px;font-size:14px}.navlinks{display:none;position:absolute;top:100px;left:0;right:0;background:#fff;padding:25px;border-bottom:1px solid #ccd9da;flex-direction:column;align-items:stretch;gap:20px}.navlinks.open{display:flex}.navlinks .button{display:flex}}
 @media(max-width:480px){.strategy-art{height:460px}.note-two{top:280px}.note-three{bottom:20px}}
+
+/* Homepage consultation portrait panel. */
+.consultation-photo{background:linear-gradient(rgba(12,42,49,.38),rgba(12,42,49,.58)),url("/office-consultation.png") center 22% / cover no-repeat;color:#fff}.consultation-photo:before{border-color:#ffffff55}.consultation-photo>strong,.consultation-photo>span{text-shadow:0 2px 14px #102f3970}
