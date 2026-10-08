@@ -17,3 +17,6 @@
 
 /* FAQ content and full portrait, side by side on larger screens. */
 .faq-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:64px;align-items:start}.faq-layout .faq{width:100%;max-width:none;margin:0}.faq-portrait{display:block;width:100%;height:auto;border-radius:12px}.faq-layout h2{font-size:clamp(2rem,3.2vw,3rem)}@media(max-width:900px){.faq-layout{gap:32px;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}@media(max-width:767px){.faq-layout{grid-template-columns:1fr}.faq-portrait{max-width:480px;justify-self:center}}
+
+/* Supplied brand artwork, displayed in its original proportions. */
+.brand-logo{display:block;width:140px;height:auto}.footer-brand{display:inline-block}.footer-logo{display:block;width:210px;max-width:100%;height:auto}@media(max-width:767px){.brand-logo{width:108px}.footer-logo{width:180px}}
