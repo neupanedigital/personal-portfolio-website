@@ -1,5 +1,5 @@
 export const brand = {
- name:'Neupane Digital Service', initials:'ND', person:'', location:'', email:'digitalbiznep@gmail.com', bookingUrl:'', siteUrl:'https://www.neupaneb.com.np', socials:[] as {label:string;url:string}[],
+ name:'Neupane Digital Service', initials:'ND', person:'', location:'', email:'digitalbiznep@gmail.com', bookingUrl:'', siteUrl:'https://www.neupaneb.com.np', socials:[{label:'Facebook',url:'https://www.facebook.com/profile.php?id=61595129111305'}] as {label:string;url:string}[],
  bio:'I help small and medium businesses grow their online presence with thoughtful strategy, useful AI tools, and marketing built around their customers. My goal is to make your next step clear, practical, and manageable.'
 };
 export const booking=brand.bookingUrl||'/contact#consultation';
