@@ -20,3 +20,5 @@
 
 /* Supplied brand artwork, displayed in its original proportions. */
 .brand-logo{display:block;width:140px;height:auto}.footer-brand{display:inline-block}.footer-logo{display:block;width:210px;max-width:100%;height:auto}@media(max-width:767px){.brand-logo{width:108px}.footer-logo{width:180px}}
+
+.social-icon-link{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;color:#1877f2;background:#eef5ff;flex-shrink:0}.social-icon-link:hover{color:#0b57c5;background:#dfeaff}.social-icon-link svg{display:block}
