@@ -6,7 +6,7 @@ type Language = 'en' | 'ne';
 
 // This is written as native Nepali website copy rather than a word-for-word translation.
 const translations: Record<string, string> = {
-  'Home':'गृहपृष्ठ','About Me':'मेरो परिचय','Services':'सेवाहरू','Blog':'लेखहरू','Contact':'सम्पर्क',
+  'Home':'गृहपृष्ठ','About Me':'मेरो परिचय','Services':'सेवाहरू','Blog':'लेखहरू','Contact':'सम्पर्क','(optional)':'(ऐच्छिक)',
   'Book a Free Consultation Call':'निःशुल्क परामर्श लिनुहोस्','Close menu':'मेनु बन्द गर्नुहोस्','Menu':'मेनु',
   'HUMAN INSIGHT. AI ADVANTAGE.':'मानवीय बुझाइ। कृत्रिम बुद्धिमत्ताको साथ।','AI MARKETING & STRATEGY':'कृत्रिम बुद्धिमत्ता र बजार रणनीति',
   'Speaker at a podium, with a marketing approach connecting your business, customers, strategy, and growth':'व्यवसाय, ग्राहक, रणनीति र उन्नतिलाई जोड्ने बजार दृष्टिकोण प्रस्तुत गर्दै मञ्चमा वक्ता','Professional consultation in an office':'कार्यालयमा व्यावसायिक परामर्श','Office portrait holding a coffee mug':'कफीको कप समातेको कार्यालयीय तस्बिर','Facebook':'फेसबुक','Neupane Digital Service home':'Neupane Digital Service को गृहपृष्ठ','All rights reserved.':'सर्वाधिकार सुरक्षित।',
