@@ -65,6 +65,7 @@ const originalText = new WeakMap<Text, string>();
 const originalAttributes = new WeakMap<HTMLElement, Record<string, string>>();
 
 function dynamicNepali(source: string): string | undefined {
+  if (source.includes('All rights reserved.')) return source.replace('All rights reserved.', 'सर्वाधिकार सुरक्षित।').replace('Thoughtful marketing. Meaningful connections.', translations['Thoughtful marketing. Meaningful connections.'] || 'सोचेर गरिएको बजार प्रवर्द्धन। अर्थपूर्ण सम्बन्ध।');
   const count = source.match(/^(\d+) (article|articles)$/);
   if (count) return `${count[1]} ${count[1] === '1' ? 'लेख' : 'लेखहरू'}`;
   const meta = source.match(/^(.+?) · (\d+) (min read|MIN READ)$/);
