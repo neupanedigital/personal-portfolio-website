@@ -120,6 +120,7 @@ function translatePage(language: Language) {
       el.setAttribute(attr, language === 'ne' && replacement ? replacement : source);
     }
   });
+  document.querySelectorAll<HTMLElement>('.optional-suffix').forEach(el => { el.textContent = language === 'ne' ? ' (ऐच्छिक)' : ' (optional)'; });
   document.documentElement.lang = language === 'ne' ? 'ne' : 'en';
 }
 
