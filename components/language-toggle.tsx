@@ -143,5 +143,5 @@ export function LanguageToggle() {
     setLanguage(next);
     translatePage(next);
   }
-  return <div className="language-toggle" data-language-toggle role="group" aria-label="Language selection"><button type="button" className={language === 'en' ? 'active' : ''} onClick={() => choose('en')} aria-pressed={language === 'en'}>Eng</button><span aria-hidden="true">|</span><button type="button" className={language === 'ne' ? 'active' : ''} onClick={() => choose('ne')} aria-pressed={language === 'ne'}>नेपाली</button></div>;
+  return <div className="language-toggle" data-language-toggle role="group" aria-label="Language selection"><button type="button" className={language === 'en' ? 'active' : ''} onClick={() => choose('en')} aria-pressed={language === 'en'}>ENG</button><span aria-hidden="true">|</span><button type="button" className={language === 'ne' ? 'active' : ''} onClick={() => choose('ne')} aria-pressed={language === 'ne'}>नेपाली</button></div>;
 }
